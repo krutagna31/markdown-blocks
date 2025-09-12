@@ -18,7 +18,7 @@ function SiteHeader() {
   return (
     <header className="py-6">
       <ViewContainer className="flex justify-between">
-        <Link href="#">React Markdown</Link>
+        <Link href="#">Markdown Blocks</Link>
 
         <DropdownMenu>
           <DropdownMenuTrigger asChild>

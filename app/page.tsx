@@ -16,8 +16,12 @@ const initialMarkdown = `A paragraph with *emphasis* and **strong importance**.
 
 A table:
 
-| a | b |
-| - | - |
+| A   | B   | C   | D   |
+| --- | --- | --- | --- |
+| 1   | 2   | 3   | 4   |
+| 5   | 6   | 7   | 8   |
+| 9   | 10  | 11  | 12  |
+
 `;
 
 export default function Home() {
@@ -38,7 +42,28 @@ export default function Home() {
           placeholder="*a heading...*"
         />
         {markdown && (
-          <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>
+          <Markdown
+            remarkPlugins={[remarkGfm]}
+            components={{
+              table: ({ ...props }) => (
+                <table className="border border-neutral-700" {...props} />
+              ),
+              th: ({ ...props }) => (
+                <th
+                  className="border border-neutral-700 px-3 py-1"
+                  {...props}
+                />
+              ),
+              td: ({ ...props }) => (
+                <td
+                  className="border border-neutral-700 px-3 py-1"
+                  {...props}
+                />
+              ),
+            }}
+          >
+            {markdown}
+          </Markdown>
         )}
       </ViewContainer>
     </SectionContainer>
