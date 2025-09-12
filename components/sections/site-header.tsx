@@ -18,7 +18,7 @@ function SiteHeader() {
   return (
     <header className="py-6">
       <ViewContainer className="flex justify-between">
-        <Link href="#">Next.js Template</Link>
+        <Link href="#">React Markdown</Link>
 
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
