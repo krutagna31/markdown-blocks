@@ -1,6 +1,6 @@
-# Next.js Template
+# Markdown Blocks
 
-A starter template repository with next.js using app router, pre-configured with typescript, tailwind css and shadcn/ui.
+Markdown Blocks parses and renders markdown text into structured blocks of text and tables.
 
 ## Table of contents
 
@@ -28,13 +28,13 @@ Follow these steps to get a copy of the project up and running on your local mac
 ### Cloning the repository
 
 ```sh
-git clone https://github.com/krutagna31/nextjs-template.git
+git clone https://github.com/krutagna31/markdown-blocks.git
 ```
 
 ### Installing dependencies
 
 ```sh
-cd nextjs-template
+cd markdown-blocks
 npm install
 ```
 
