@@ -4,22 +4,11 @@ Markdown Blocks parses and renders markdown text into structured blocks of text 
 
 ## Table of contents
 
-- [My process](#my-process)
-  - [Built with](#built-with)
 - [Getting Started](#getting-started)
   - [Cloning the repository](#cloning-the-repository)
   - [Installing Dependencies](#installing-dependencies)
   - [Running the Development Server](#running-the-development-server)
 - [Author](#author)
-
-## My process
-
-### Built with
-
-- [Next.js](https://nextjs.org/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Shadcn/UI](https://ui.shadcn.com/)
 
 ## Getting Started
 
